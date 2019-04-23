@@ -304,7 +304,7 @@ Vue.component('game-nameParishes',{
 							</div>
 						</div>
 						<div class='after-complete' v-if='this.unanswered.length == 0'>
-							<div v-on:click='initiate'>Restart(not implemented)</div>
+							<div v-on:click='initiate'>Restart</div>
 						</div>
 					</div>
 				`,
